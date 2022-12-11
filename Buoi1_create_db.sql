@@ -27,6 +27,11 @@ CREATE TABLE sales(
     item_code CHAR(3) NOT NULL UNIQUE
 );
 
+CREATE TABLE item (
+    item-id INT PRIMARY KEY AUTO_INCREMENT,
+    maker VARCHAR(50) NOT NULL
+);
+
 
 
 
